@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { environment } from '../../environments/environment';
+import { environment } from '../../env';
 
 export interface RecommendedTool {
   name: string;

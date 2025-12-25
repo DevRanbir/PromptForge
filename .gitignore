@@ -48,6 +48,8 @@ Thumbs.db
 .env.*.local
 src/environments/environment.development.ts
 src/environments/*.dev.ts
+src/env.ts
+src/environments/environment.ts
 
 # Logs
 npm-debug.log*
