@@ -4,7 +4,7 @@
 
 PromptForge is a cutting-edge web application designed to transform raw ideas into powerful, AI-optimized prompts. By leveraging the power of Google's Gemini 2.0 Flash, it analyzes your input, detects weaknesses, and "forges" a refined strategy to get the best results from various AI models.
 
-![PromptForge Logo](public/aiLOGO.png)
+![PromptForge Logo](public/aiLOGO.jpg)
 
 ## 🚀 Key Features
 
