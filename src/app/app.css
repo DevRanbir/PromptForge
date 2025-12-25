@@ -1,0 +1,33 @@
+/* Global Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--muted);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    /* Makes the scrollbar look 'floating' and thinner */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary);
+}
+
+/* Specific Utility if needed, but global covers it */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--muted) transparent;
+}
+
+/* Firefox fallback for Pre tags if needed */
+pre {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) transparent;
+}
