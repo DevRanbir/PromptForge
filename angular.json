@@ -24,6 +24,7 @@
                 "input": "public"
               }
             ],
+            "outputPath": "dist/angular",
             "styles": [
               "src/styles.css"
             ]
