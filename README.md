@@ -1,59 +1,59 @@
-# Prompting
+# PromptForge
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+**Elevate your prompts easily.**
 
-## Development server
+PromptForge is a cutting-edge web application designed to transform raw ideas into powerful, AI-optimized prompts. By leveraging the power of Google's Gemini 2.0 Flash, it analyzes your input, detects weaknesses, and "forges" a refined strategy to get the best results from various AI models.
 
-To start a local development server, run:
+![PromptForge Logo](public/aiLOGO.png)
 
-```bash
-ng serve
-```
+## 🚀 Key Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+*   **AI-Powered Optimization**: Instantly enhances your prompts using advanced LLM analysis (Gemini 2.0).
+*   **Tooling Matrix**: Intelligently suggests the best AI tools (Midjourney, ChatGPT, Claude, etc.) for your specific task.
+*   **Forging Report**: Provides a detailed breakdown of your prompt's strengths, weaknesses, and a finalized "Optimal Version".
+*   **Mobile-First Design**: Features a unique parallax "sheet" layout on mobile for seamless on-the-go forging.
+*   **Responsive & Themed**: Fully responsive interface with a sleek dark/light mode toggle.
+*   **Modern UI**: Built with Spartan UI and TailwindCSS for a premium, accessible user experience.
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+*   **Framework**: Angular 17+ (Standalone Components)
+*   **Styling**: TailwindCSS & CSS Variables
+*   **UI Library**: Spartan UI (shadcn/ui for Angular)
+*   **AI Engine**: Google Gemini (via Google Generative AI SDK)
+*   **Animations**: Lottie & CSS Transitions
 
-```bash
-ng generate component component-name
-```
+## 📦 Getting Started
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/prompt-forge.git
+    cd prompt-forge
+    ```
 
-```bash
-ng generate --help
-```
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-## Building
+3.  **Environment Setup**
+    Create a file at `src/environments/environment.ts` (and `.development.ts`) with your API key:
+    ```typescript
+    export const environment = {
+      production: false,
+      geminiApiKey: 'YOUR_GEMINI_API_KEY'
+    };
+    ```
 
-To build the project run:
+4.  **Run the Application**
+    ```bash
+    npm start
+    ```
+    Navigate to `http://localhost:4200/`.
 
-```bash
-ng build
-```
+## 👨‍💻 Author
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**RANBIR KHURANA**
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+*Forged with ❤️ by Ranbir Khurana.*
